@@ -24,11 +24,7 @@ class Grupo:
         return c
     
     @ classmethod
-    def asignarNombre(cls, nombre="Grado 12"):
-        cls.grado = nombre
-    
-    @ classmethod
-    def asignarNombre(cls, nombre="Grado 10"):
+    def asignarNombre(cls, nombre):
         cls.grado = nombre
 
     @ classmethod
