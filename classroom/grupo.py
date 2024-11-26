@@ -7,7 +7,6 @@ class Grupo:
         self._grupo = grupo
         self._asignaturas = asignaturas
         self.listadoAlumnos = estudiantes
-        self.grado = grado
 
     def listadoAsignaturas(self, *args, **kwargs):
         for x in kwargs.values():
