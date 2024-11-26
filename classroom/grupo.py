@@ -1,9 +1,9 @@
 from classroom.asignatura import Asignatura
 
 class Grupo:
-    grado = None
+    grado= "Grado 12"
 
-    def __init__(self, grupo="grupo predeterminado", asignaturas=[], estudiantes=[], grado="Grado 12"):
+    def __init__(self, grupo="grupo predeterminado", asignaturas=[], estudiantes=[]):
         self._grupo = grupo
         self._asignaturas = asignaturas
         self.listadoAlumnos = estudiantes
